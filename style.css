@@ -10,7 +10,7 @@ body {
 header {
    width: 100%;
    border-radius: 10px;
-   color: rgb(21, 20, 22);
+   background-color: rgb(21, 20, 22);
    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
    margin-bottom: 20px;
 }
@@ -202,12 +202,51 @@ h1 {
     box-shadow: 5px 5px 50px rgb(0, 142, 236);
     transform: scale(1.2);
 }
+
 footer {
     width: 100%;
     border-radius: 10px;
-    background-color: rgb(21, 20, 22);
-    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
+   background-color: rgb(21, 20, 22);
+   box-shadow: 10px 10px 50px  rgb(5, 0, 10);
+   padding-bottom: 30px;
 }
+.foot {
+    width: 350px;
+    margin: auto;
+}
+.foot h2 {
+    padding: 40px;
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+}
+.foot .alinhamento {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 8px;
+}
+.alinhamento li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    transition: 1s;
+    margin: 20px;
+}
+.alinhamento li a:hover {
+    color: black;
+    background-color: yellow;
+    box-shadow: 0 0 30px yellow;
+    border-radius: 10px;
+    transform: scale(1.1);
+    padding: 2px;
+}
+
+
+
+
 
 ::-webkit-scrollbar {
     background-color: rgb(54, 57, 58);
