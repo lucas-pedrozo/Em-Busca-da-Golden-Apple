@@ -70,7 +70,7 @@ main {
 }
 .center {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 60px;
     background-color: rgb(28, 30, 32);
     padding: 15px;
@@ -85,9 +85,40 @@ main {
 
 }
 .const {
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    display: flex;
+    padding-left: 80px;
+    padding-right: 75px;
+}
+.const p {
+    margin: auto;
+    margin-left: 60px;
+    font-size: 16px;
+    text-align:left ;
+    color: rgba(0, 255, 255, 0.774);
+    background-color: rgba(127, 255, 212, 0.055);
+    padding: 30px;
+    border-radius: 10px;
+}
+.auto {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 75px;
+    margin-top: 30px;
+}
+.auto img {
+    width: 300px;
+    border-radius: 30px;
+}
+.auto p {
+    margin: auto;
+    margin-left: 60px;
+    font-size: 16px;
+    text-align: left;
+    color: rgba(0, 255, 255, 0.774);
+    background-color: rgba(127, 255, 212, 0.055);
+    padding: 20px;
+    border-radius: 10px;
+    
 }
 
 
