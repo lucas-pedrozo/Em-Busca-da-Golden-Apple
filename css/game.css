@@ -43,9 +43,11 @@ header {
     transition: 1s;
 }
 .NV li a:hover {
-    border-radius: 20px;
+    background-color: yellow;
+    padding: 3px;
+    border-radius: 10px;
     box-shadow: 1px 1px 50px rgb(78, 78, 0);
-    color: rgb(240, 240, 0);
+    color: black;
     transform: scale(1.2);
 }
 main {

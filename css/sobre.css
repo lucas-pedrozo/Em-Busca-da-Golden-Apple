@@ -42,9 +42,11 @@ header {
     transition: 1s;
 }
 .NV li a:hover {
-    border-radius: 20px;
+    background-color: yellow;
+    padding: 3px;
+    border-radius: 10px;
     box-shadow: 1px 1px 50px rgb(78, 78, 0);
-    color: rgb(240, 240, 0);
+    color: black;
     transform: scale(1.2);
 }
 /* conteudo */
@@ -59,6 +61,7 @@ main {
     border-radius: 50px 50px 50px 50px;
     padding-left: 20PX;
     padding-right: 20PX;
+    margin-bottom: 30px;
 }
 .capa {
     display: flex;
@@ -118,8 +121,48 @@ main {
     background-color: rgba(127, 255, 212, 0.055);
     padding: 20px;
     border-radius: 10px;
-    
 }
+footer {
+    width: 100%;
+    border-radius: 10px;
+   background-color: rgb(21, 20, 22);
+   box-shadow: 10px 10px 50px  rgb(5, 0, 10);
+   padding-bottom: 30px;
+}
+.foot {
+    width: 350px;
+    margin: auto;
+}
+.foot h2 {
+    padding: 40px;
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+}
+.foot .alinhamento {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 8px;
+}
+.alinhamento li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    transition: 1s;
+    margin: 20px;
+}
+.alinhamento li a:hover {
+    color: black;
+    background-color: yellow;
+    box-shadow: 0 0 30px yellow;
+    border-radius: 10px;
+    transform: scale(1.1);
+    padding: 3px;
+}
+
 
 
 
