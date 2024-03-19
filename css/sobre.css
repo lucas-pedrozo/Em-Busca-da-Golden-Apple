@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(32, 32, 32);
+    font-family: Arial, verdana , New Roman;
+}
+header {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(21, 20, 22);
+    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
+    margin-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+ }
+.conteiner img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.conteiner {
+    width: 1400px;
+    margin: auto;
+}
+.NV {
+    display: flex;
+    float: right;
+    justify-content: center;
+}
+.NV li {
+    margin: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+.NV li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;  
+    margin: 40px;
+    display: inline-block;
+    transition: 1s;
+}
+.NV li a:hover {
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px rgb(78, 78, 0);
+    color: rgb(240, 240, 0);
+    transform: scale(1.2);
+}
+/* conteudo */
+main {
+    width: 1400px;
+    margin: auto;;
+    color: white;
+    background-color: rgb(21, 20, 22);
+    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
+    padding-top: 1px;
+    padding-bottom: 20px;
+    border-radius: 50px 50px 50px 50px;
+    padding-left: 20PX;
+    padding-right: 20PX;
+}
+.capa {
+    display: flex;
+    justify-content: center;
+}
+.capa video {
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.center {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: rgb(28, 30, 32);
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.center H1 {
+    text-align: center;
+    font-size: 30px;
+    color: blueviolet;
+
+}
+.const {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+::-webkit-scrollbar {
+    background-color: rgb(54, 57, 58);
+   }
+   ::-webkit-scrollbar-thumb {
+       background-color: rgb(116, 0, 170);
+   }

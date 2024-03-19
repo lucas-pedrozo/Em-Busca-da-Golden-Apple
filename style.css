@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    font-family: Arial, verdana , new roman
+}
+header {
+   width: 100%;
+   border-radius: 10px;
+   color: rgb(21, 20, 22);
+   box-shadow: 10px 10px 50px  rgb(5, 0, 10);
+   margin-bottom: 20px;
+}
+.conteiner {
+    width: 1400px;
+    margin: auto;
+}
+.conteiner img {
+    width: 300px;
+    box-shadow: 5px 5px 20px rgb(51, 71, 15);
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 10px;
+}
+.NV {
+    display: flex; 
+    float: right;
+    justify-content: space-between;
+
+}
+.NV li {
+    margin-top: 20px;
+    list-style-type: none;
+    align-items: center;    
+}
+.NV li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;  
+    margin: 40px;
+    display:inline-block;
+    transition: 1s;
+    
+}
+.NV li a:hover{
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px rgb(78, 78, 0);
+    color: rgb(240, 240, 0);
+    transform: scale(1.2);
+}
+
+ /* conteudo */
+
+main {
+    width: 1400px;
+    margin: auto;
+    color: white;
+    background-color: rgb(21, 20, 22);
+    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
+    padding-top: 1px;
+    border-radius: 50px 50px 50px 50px;
+    padding-left: 20PX;
+    padding-right: 20PX;
+
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.VD {
+    border-radius: 15px;
+}
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+    background-color: rgb(28, 30, 32);
+    width: 620px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 75px;
+}
+
+
+.INFO {
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+    background-color: rgb(28, 30, 32);
+    width: 480px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 75px;
+    margin-top: 15px;
+}
+.tex-center {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+    margin: 18px;
+}
+.hist strong {
+    color: yellow;
+}
+.plataforma .comple {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.comple {
+    margin: auto;
+    width: 1100px;
+    padding: 15px;
+    background-color: rgb(28, 30, 32);
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(255, 255, 0, 0.123);
+
+}
+.comple li {
+    list-style-type: none;
+    font-size: 25px;
+    color: rgb(238, 255, 0);    
+
+}
+
+
+.PERSO {
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+    background-color: rgb(28, 30, 32);
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    margin-top: 30px;
+}
+.img-perso {
+    display:flex;
+    justify-content: space-between;
+    margin: 120px;
+    margin-top: 25px;
+}
+.img-perso img {
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 30px rgb(0, 39, 65);
+}
+
+
+.game {
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+    background-color: rgb(28, 30, 32);
+    width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 75px;
+    margin-top: 15px;
+}
+.map {
+    display: flex;
+    justify-content: center;
+}
+.map img {
+    margin-bottom: 80px;
+    width: 1100px;
+    box-shadow: 0px  0px 50px rgb(94, 37, 0);
+}
+.botão {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.botão a {
+    /* color do fundo */ 
+    background-color:  rgb(96, 0, 151);
+    /* borda */
+    border-radius: 40px;
+    /* cor da letra */
+    color: white;
+    /* tgamanho da fonte */
+    font-size: 26px;
+    /* margem interna */
+    padding: 25px;
+    /* retirar o sublinhado */
+    text-decoration: none;
+    margin-bottom: 50px;
+    display: inline-block;
+    transition: 1s;
+}
+.botão a:hover {
+    /* color do fundo */
+    background-color: rgb(0, 142, 236);
+    box-shadow: 5px 5px 50px rgb(0, 142, 236);
+    transform: scale(1.2);
+}
+footer {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(21, 20, 22);
+    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(54, 57, 58);
+   }
+   ::-webkit-scrollbar-thumb {
+       background-color: rgb(116, 0, 170);
+   }
