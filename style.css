@@ -1,11 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     background-color: rgb(32, 32, 32);
-    font-family: Arial, verdana , new roman
+    font-family: Arial, verdana, New Roman;
+
 }
 header {
     background-color: rgb(21, 20, 22);
@@ -15,6 +13,7 @@ header {
     margin-bottom: 20px;
 }
 .conteiner {
+    
     width: 1400px;
     margin: auto;
     
@@ -33,7 +32,7 @@ header {
 
 }
 .NV li {
-    margin-top: 20px;
+
     list-style-type: none;
     align-items: center;    
 }
@@ -246,14 +245,106 @@ footer {
     transform: scale(1.1);
     padding: 3px;
 }
-
-
-
-
-
 ::-webkit-scrollbar {
     background-color: rgb(54, 57, 58);
    }
    ::-webkit-scrollbar-thumb {
        background-color: rgb(116, 0, 170);
    }
+
+   @media screen and (max-width: 1340px) {
+
+    .conteiner {
+        width: 1100px;
+    }
+
+    .NV li a {
+        font-size: 14px;
+        margin: 20px;   
+        margin-top: 35px;  
+    }
+
+    main {
+        width: 1100px;
+    }
+
+    .VD {
+        width: 800px;
+    }
+
+    .comple {
+        width: 980px;
+    }
+    
+    .img-perso img {
+        width: 250px;
+    }
+    .map img {
+        width: 1000px;
+    }
+
+
+   }
+@media screen and (max-width: 1000px){
+
+    .conteiner {
+        width: 800px;
+    }
+
+    .conteiner img {
+        width: 225px;
+    }
+    .NV li a {
+        font-size: 12px;
+        margin: 15px;   
+        margin-top: 25px; 
+    }
+    main {
+        width: 760px;
+    }
+
+    .VD {
+        width: 600px;
+    }
+    h1 {
+        font-size: 25px;
+        width: 500px;
+    }
+
+    .tex-center {
+        font-size: 14px;
+    }
+
+    .INFO {
+        font-size: 25px;
+        width: 400px;
+        padding: 15px;
+    }
+
+    .comple {
+        margin: auto;
+        width: 700px;
+    
+    }
+    .comple li {
+        font-size: 20px;   
+    
+    }
+
+    .PERSO {
+        font-size: 25px;
+        width: 250px;
+        padding: 15px;
+    }
+
+    .img-perso img {
+        border-radius: 10px;
+        width: 150px;
+        margin-bottom: 15px;
+        box-shadow: 5px 5px 30px rgb(0, 39, 65);
+
+
+    }
+    
+
+}
