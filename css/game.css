@@ -52,7 +52,16 @@ header {
 }
 main {
     width: 1400px;
-    margin: auto;
+    margin: auto;;
+    color: white;
+    background-color: rgb(21, 20, 22);
+    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
+    padding-top: 1px;
+    padding-bottom: 20px;
+    border-radius: 50px 50px 50px 50px;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    margin-bottom: 30px;
 }
 .tex-center {
     text-align: center;
