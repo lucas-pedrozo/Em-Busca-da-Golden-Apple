@@ -1,10 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+/* base */
 
 body {
     background-color: rgb(32, 32, 32);
     font-family: Arial, verdana, New Roman;
 
 }
+
+/* barra de navegação */
+
 header {
     background-color: rgb(21, 20, 22);
     border-radius: 10px;
@@ -68,14 +76,17 @@ main {
     padding-right: 20PX;
 
 }
+
 .center {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+
 .VD {
     border-radius: 15px;
 }
+
 h1 {
     text-align: center;
     color: blueviolet;
@@ -99,21 +110,25 @@ h1 {
     margin-bottom: 75px;
     margin-top: 15px;
 }
+
 .tex-center {
     text-align: center;
     padding-bottom: 20px;
     font-size: 18px;
     margin: 18px;
 }
+
 .hist strong {
     color: yellow;
 }
+
 .plataforma .comple {
     display: flex;
     text-align: center;
     justify-content: space-between;
     margin-bottom: 50px;
 }
+
 .comple {
     margin: auto;
     width: 1100px;
@@ -123,13 +138,13 @@ h1 {
     box-shadow: 5px 5px 20px rgba(255, 255, 0, 0.123);
 
 }
+
 .comple li {
     list-style-type: none;
     font-size: 25px;
     color: rgb(238, 255, 0);    
 
 }
-
 
 .PERSO {
     text-align: center;
@@ -155,7 +170,6 @@ h1 {
     box-shadow: 5px 5px 30px rgb(0, 39, 65);
 }
 
-
 .game {
     text-align: center;
     color: blueviolet;
@@ -167,20 +181,24 @@ h1 {
     margin-bottom: 75px;
     margin-top: 15px;
 }
+
 .map {
     display: flex;
     justify-content: center;
 }
+
 .map img {
     margin-bottom: 80px;
     width: 1100px;
     box-shadow: 0px  0px 50px rgb(94, 37, 0);
 }
+
 .botão {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
+
 .botão a {
     /* color do fundo */ 
     background-color:  rgb(96, 0, 151);
@@ -198,6 +216,7 @@ h1 {
     display: inline-block;
     transition: 1s;
 }
+
 .botão a:hover {
     /* color do fundo */
     background-color: rgb(0, 142, 236);
@@ -212,16 +231,19 @@ footer {
    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
    padding-bottom: 30px;
 }
+
 .foot {
     width: 350px;
     margin: auto;
 }
+
 .foot h2 {
     padding: 40px;
     color: blueviolet;
     text-align: center;
     font-size: 30px;
 }
+
 .foot .alinhamento {
     display: flex;
     text-align: center;
@@ -229,6 +251,7 @@ footer {
     list-style-type: none;
     margin-left: 8px;
 }
+
 .alinhamento li a {
     text-decoration: none;
     color: white;
@@ -236,7 +259,9 @@ footer {
     display: inline-block;
     transition: 1s;
     margin: 20px;
+    
 }
+
 .alinhamento li a:hover {
     color: black;
     background-color: yellow;
@@ -245,6 +270,8 @@ footer {
     transform: scale(1.1);
     padding: 3px;
 }
+
+
 ::-webkit-scrollbar {
     background-color: rgb(54, 57, 58);
    }
@@ -252,7 +279,9 @@ footer {
        background-color: rgb(116, 0, 170);
    }
 
-   @media screen and (max-width: 1340px) {
+
+
+   @media screen and (max-width: 1504px) {
 
     .conteiner {
         width: 1100px;
@@ -285,7 +314,9 @@ footer {
 
 
    }
-@media screen and (max-width: 1000px){
+
+
+@media screen and (max-width: 1253px){
 
     .conteiner {
         width: 800px;
@@ -300,7 +331,7 @@ footer {
         margin-top: 25px; 
     }
     main {
-        width: 760px;
+        width: 800px;
     }
 
     .VD {
@@ -338,13 +369,94 @@ footer {
     }
 
     .img-perso img {
-        border-radius: 10px;
         width: 150px;
-        margin-bottom: 15px;
-        box-shadow: 5px 5px 30px rgb(0, 39, 65);
-
-
     }
     
+    .map img {
+        width: 750px;
+    }
 
+    .botão a {
+        padding: 20px;
+    }
+    .foot .alinhamento {
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+    
+    .conteiner {
+        width: 600px;
+    }
+
+    .conteiner img {
+        width: 160px;
+    }
+    .NV li a {
+        font-size: 8px;
+        margin: 16px;   
+        margin-top: 25px; 
+    }
+    main {
+        width: 600px;
+    }
+    .VD {
+        width: 550px;
+    }
+    h1 {
+        font-size: 20px;
+        width: 420px;
+    }
+    .tex-center {
+        font-size: 12px;
+    }
+    .INFO {
+        font-size: 22px;
+        width: 340px;
+        padding: 15px;
+    }
+
+    .comple {
+        margin: auto;
+        width: 560px;
+    
+    }
+    .comple li {
+        font-size: 18px;   
+    
+    }
+
+    .PERSO {
+        font-size: 20px;
+        width: 250px;
+        padding: 15px;
+    }
+    .img-perso {
+        display:flex;
+        justify-content: space-between;
+        margin: 70px;
+        margin-top: 25px;
+    }
+
+    .img-perso img {
+        width: 140px;
+    }
+    .game {
+        
+        font-size: 20px;
+        width: 250px;
+    }
+    
+    .map img {
+        width: 550px;
+    }
+
+    .botão a {
+        padding: 16px;
+        font-size: 20px;
+    }
+    .foot .alinhamento {
+    }
+    
 }
