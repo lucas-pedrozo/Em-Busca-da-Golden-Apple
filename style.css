@@ -8,15 +8,16 @@ body {
     font-family: Arial, verdana , new roman
 }
 header {
-   width: 100%;
-   border-radius: 10px;
-   background-color: rgb(21, 20, 22);
-   box-shadow: 10px 10px 50px  rgb(5, 0, 10);
-   margin-bottom: 20px;
+    background-color: rgb(21, 20, 22);
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
+    margin-bottom: 20px;
 }
 .conteiner {
     width: 1400px;
     margin: auto;
+    
 }
 .conteiner img {
     width: 300px;
