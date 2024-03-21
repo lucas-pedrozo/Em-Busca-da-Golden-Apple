@@ -14,18 +14,17 @@ body {
 /* barra de navegação */
 
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(21, 20, 22);
     border-radius: 10px;
-    width: 100%;
-    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
-    margin-bottom: 20px;
-}
-.conteiner {
-    
     width: 1400px;
+    box-shadow: 10px 10px 50px  rgb(5, 0, 10);
     margin: auto;
-    
+    margin-bottom: 20px;
+    padding: 1rem;
 }
+
 .conteiner img {
     width: 300px;
     box-shadow: 5px 5px 20px rgb(51, 71, 15);
@@ -33,10 +32,15 @@ header {
     margin: 20px;
     margin-left: 10px;
 }
+.Nv-box {
+    display: flex;
+    align-items: center;
+}
 .NV {
     display: flex; 
     float: right;
     justify-content: space-between;
+    align-items: center;
 
 }
 .NV li {
@@ -49,7 +53,6 @@ header {
     font-size: 16px;
     text-decoration: none;  
     margin: 40px;
-    display:inline-block;
     transition: 1s;
     
 }
